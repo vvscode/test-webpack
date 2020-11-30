@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/vvscode/test-webpack/issues"
   },
-  "homepage": "https://github.com/vvscode/test-webpack#readme"
+  "homepage": "https://github.com/vvscode/test-webpack#readme",
+  "devDependencies": {
+    "webpack": "^5.9.0",
+    "webpack-cli": "^4.2.0"
+  }
 }
