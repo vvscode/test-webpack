@@ -22,9 +22,9 @@ describe('greet', () => {
     expect(window.alert).toHaveBeenCalledWith('Агу');
   });
 
-  it('should show Привет for teen age', () => {
-    greet(14);
-    expect(window.alert).toHaveBeenCalledWith('Привет');
-  })
+  // it('should show Привет for teen age', () => {
+  //   greet(14);
+  //   expect(window.alert).toHaveBeenCalledWith('Привет');
+  // })
 
 })
