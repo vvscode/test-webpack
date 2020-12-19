@@ -1,3 +1,6 @@
 import { greet } from './greet';
 
-greet(Number(prompt("Your age???")));
+setTimeout(() => {
+  greet(Number(prompt("Your age???")));
+  
+}, 100);

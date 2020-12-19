@@ -1,4 +1,4 @@
-export function greet(age) {
+const innerGreet = (age) =>{
   if (age > 18) {
     alert('Приветствую');
   } else if (age > 5) {
@@ -6,4 +6,8 @@ export function greet(age) {
   } else {
     alert('Агу');
   }
+}
+
+export const greet = (age) => {
+  innerGreet(age + 2);
 }
